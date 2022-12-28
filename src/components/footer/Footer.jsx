@@ -4,6 +4,8 @@ import { FaGithub } from "react-icons/fa";
 import "./footer.css";
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
+
     return (
         <footer>
             <a href="#home" className="footer__logo">
@@ -17,13 +19,10 @@ const Footer = () => {
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#experience">Skills</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
                     <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#testimonials">Testimonials</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
@@ -46,7 +45,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className="footer__copyright">
-                <small>&copy; ET 2022. All rights reserved.</small>
+                <small>&copy; {currentYear}. All rights reserved.</small>
             </div>
         </footer>
     );
