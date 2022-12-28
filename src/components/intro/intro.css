@@ -16,17 +16,18 @@
     );
     display: grid;
     place-items: center;
+    transform: rotate(10deg);
 }
 
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    transform: rotate(-10deg);
     transition: var(--transition);
 }
 
 .about__me-image:hover {
-    transform: rotate(0);
+    transform: rotate(-15deg);
 }
 
 .about__cards {
@@ -79,6 +80,12 @@
     .about__me {
         width: 50%;
         margin: 2rem auto 4rem;
+    }
+
+    .about__me,
+    .about__me-image,
+    .about__me-image:hover {
+        transform: none;
     }
 
     .about__content p {
