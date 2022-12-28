@@ -59,6 +59,14 @@ const Skills = () => {
                             <BsFillPatchCheckFill className="experience__details-icon" />
                             <h4>Firebase</h4>
                         </article>
+                        <article className="experience__details">
+                            <BsFillPatchCheckFill className="experience__details-icon" />
+                            <h4>MongoDB</h4>
+                        </article>
+                        <article className="experience__details">
+                            <BsFillPatchCheckFill className="experience__details-icon" />
+                            <h4>WordPress</h4>
+                        </article>
                     </div>
                 </div>
             </div>
