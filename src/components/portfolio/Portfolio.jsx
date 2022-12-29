@@ -1,10 +1,10 @@
 import React from "react";
-import IMG1 from "../../assets/Educational Website.jpg";
-import IMG2 from "../../assets/RubyCode Blog Project.jpg";
-import IMG3 from "../../assets/Startup Agency Project.jpg";
-import IMG4 from "../../assets/Covid-19 Project.jpg";
-import IMG5 from "../../assets/Jokes Project.jpg";
-import IMG6 from "../../assets/Project4.jpg";
+import IMG1 from "../../assets/dashboard.png";
+import IMG2 from "../../assets/entertainment.png";
+import IMG3 from "../../assets/userlist.png";
+import IMG4 from "../../assets/movielist.png";
+import IMG5 from "../../assets/travel.png";
+import IMG6 from "../../assets/product.png";
 
 import "./portfolio.css";
 //Portfolio function
@@ -12,63 +12,61 @@ const Portfolio = () => {
     const soloProjects = [
         {
             id: 1,
-            title: "Educational Website with React.js",
+            title: "Admin Dashboard",
             img: IMG1,
             description:
-                "An educational website is a huge interactive platform to present various information for people.",
-            technologies: "Html | CSS | Javascript | React Js",
-            link: "https://educational-website-reactjs.netlify.app/",
-            github: "https://github.com/Rasif-Taghizada/Educational-Website-ReactJs",
+                "This is an demo admin dashboard design which contains multiple tables, different types of charts.",
+            technologies: "ReactJs | MUI | Nivo Chart | Full Calender",
+            link: "https://admin-dashboard-six-dun.vercel.app/",
+            github: "https://github.com/ihossen016/Admin-Dashboard",
         },
         {
             id: 2,
-            title: "Covid-19 Tracking App",
-            img: IMG4,
+            title: "Entertainment",
+            img: IMG2,
             description:
-                "The COVID Tracking Project collects and publishes the most complete testing data available for all areas of the world.",
-            technologies: "React | Redux",
-            link: "https://covid-19-tracker-weld-nu.vercel.app/",
-            github: "https://github.com/Rasif-Taghizada/Covid-19-Tracking",
+                "This is a movies directory where you can find all the latest Movies and TV Series",
+            technologies: "ReactJs | MUI | TMDB API",
+            link: "https://entertainment-blue.vercel.app/",
+            github: "https://github.com/ihossen016/Entertainment",
         },
         {
             id: 3,
-            title: "RubyCode Blog Project",
-            img: IMG2,
+            title: "User List Dashboard",
+            img: IMG3,
             description:
-                "This site is a kind of social media platform. You can register and share your posts.",
-            technologies: "React | Redux",
-            link: "https://github.com/Rasif-Taghizada/RubyCode-Blog",
+                "It's a dashboard where you can find all the users of an platform altogether",
+            technologies: "React | REST API | Tailwind CSS | Custom Pagination",
+            link: "https://hypescout-six.vercel.app/hypesocial",
             github: "https://github.com/Rasif-Taghizada/RubyCode-Blog",
         },
         {
             id: 4,
-            title: "Startup Landing Page",
-            img: IMG3,
+            title: "MovieList",
+            img: IMG4,
             description:
-                "A dedicated, standalone web page built for specific campaigns and target audiences.",
-            technologies: "Html | CSS | JavaScript | Next Js",
-            link: "https://alpha-agency-project.vercel.app/",
-            github: "https://github.com/Rasif-Taghizada/Alpha-Agency-Project",
+                "It's a movie listing application where you can create your own watchlist",
+            technologies: "ReactJs | Context API | TMDB API | Local Storage",
+            link: "https://react-movie-watchlist-nine.vercel.app/",
+            github: "https://github.com/ihossen016/react-movie-watchlist-using-context-api",
         },
         {
             id: 5,
-            title: "Jokes Project with Typescript",
+            title: "Travel Website",
             img: IMG5,
-            description:
-                "For when you need a fast funny joke, here are some short jokes to get anyone giggling.",
-            technologies: "Html | Styled-components | Typescript",
-            link: "https://jokes-project.vercel.app/",
-            github: "https://github.com/Rasif-Taghizada/Joke-App",
+            description: "It's a landing page for a travel website.",
+            technologies: "HTML | CSS | Javascript",
+            link: "https://demo-travel-website-landing-page.netlify.app/",
+            github: "https://github.com/ihossen016/travel_website",
         },
         {
             id: 6,
-            title: "Fs Poster Website",
+            title: "Product Landing Page",
             img: IMG6,
-            description:
-                "Real-world group project which is still in progress and will provide educational platform for future young developers",
-            technologies: "Html | Scss | Javascript",
-            link: "https://fs-poster-project.netlify.app/",
-            github: "https://github.com/Rasif-Taghizada/Fs-Poster-Project",
+            description: "This a landing page design for a movie application.",
+            technologies: "HTML | CSS | Javascript",
+            link: "https://ihossen016-product-landing-page.netlify.app/",
+            github: "https://github.com/ihossen016/product-landing-page",
         },
     ];
 
