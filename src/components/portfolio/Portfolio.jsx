@@ -36,7 +36,7 @@ const Portfolio = () => {
             img: IMG3,
             description:
                 "It's a dashboard where you can find all the users of an platform altogether",
-            technologies: "React | REST API | Tailwind CSS | Custom Pagination",
+            technologies: "ReactJS | REST API | Tailwind CSS",
             link: "https://hypescout-six.vercel.app/hypesocial",
             github: "https://github.com/Rasif-Taghizada/RubyCode-Blog",
         },
