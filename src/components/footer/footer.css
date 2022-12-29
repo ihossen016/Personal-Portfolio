@@ -17,7 +17,8 @@ footer a {
     display: inline-block;
 }
 
-.footer__logo:hover {
+.footer__logo:hover,
+.permalinks a:hover {
     color: rgba(0, 0, 0, 0.3);
 }
 
