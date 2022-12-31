@@ -7,6 +7,7 @@ import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 // import Testimonials from "./components/testimonials/Testimonials";
 import Topbar from "./components/topbar/Topbar";
+import Experience from "./components/experience/Experience";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             <Topbar />
             <Intro />
             <Skills />
+            <Experience />
             <Portfolio />
             {/* <Testimonials /> */}
             <Contact />
